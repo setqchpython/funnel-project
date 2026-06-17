@@ -1,0 +1,23 @@
+<head>
+        <title> LLM Router  </title>
+
+</head>
+<body>
+
+<h1> LLM Router</h1>
+
+<textarea id="prompt" rows="5" cols="60"></textarea>
+
+<br> <br>
+
+<button onclick="sendPrompt()">
+    Отправить
+
+</button>
+
+<pre id="result">   </pre>
+
+<script src="{{ url_for('static', filename= 'script.js') }}"></script>
+
+</body>
+</html>
